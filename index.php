@@ -1,6 +1,6 @@
 <?php
 // Path to the image file
-$imagePath = 'images/test.jpg';
+$imagePath = 'images/test2.jpg';
 
 // Check if the file exists
 if (file_exists($imagePath)) {
