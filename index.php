@@ -1,4 +1,3 @@
-<?php echo $_SERVER['SERVER_ADDR'] ?>
 <?php
 // Path to the image file
 $imagePath = 'images/test.jpg';
@@ -11,6 +10,7 @@ if (file_exists($imagePath)) {
     // Output the image file
     readfile($imagePath);
     echo 'ver 2.';
+    echo $_SERVER['SERVER_ADDR']
 } else {
     // Handle the case where the image does not exist
     echo 'Image not found.';
